@@ -126,7 +126,7 @@ function DailyTimeline({ tasks, setTasks }) {
 
           return (
             <Grid container spacing={2} className="time-slot" key={hour}>
-              <Grid size="grow">
+              <Grid size="grow" sx={{ pr: 1 }}>
                 <strong>{hour}</strong>
               </Grid>
 
